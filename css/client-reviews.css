@@ -1,0 +1,151 @@
+
+
+
+
+.reviews__gapping{
+    margin-top: 110px;
+}
+
+
+
+
+
+
+.reviews{
+     padding-bottom: 150px;
+     
+}
+
+
+.content{
+    position: relative;
+}
+
+
+.reviews__slider1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4756DF;
+    position: absolute;
+    top: 395px;
+    right: -25px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.reviews__leftarrow{
+    color: #fff;
+    
+}
+
+
+
+.reviews__slider2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4756DF;
+    position: absolute;
+    top: 395px;
+    left: -25px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.reviews__rightarrow{
+    color: #fff;
+    
+}
+
+.reviews__slider1:hover, .reviews__slider2:hover{
+    background: var(--button-hover);
+}
+
+
+
+
+
+
+
+.reviews__card{
+    border-radius: 30px;
+    background: #fff;
+    padding: 54px 27px;
+    transition: all linear 0.3s;
+}
+
+.reviews__card:hover{
+    border-radius: 30px;
+    background: #F4EFEF;
+    padding: 54px 27px;
+    cursor: pointer;
+}
+
+
+
+
+
+.reviews__heading{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.reviews__passage{
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 620px;
+    margin: 20px auto 0;
+}
+
+.reviews__comment{
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 307px;
+    margin-top: 20px;
+}
+
+.reviews__icon{
+    color: #F9BD2C;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.reviews__personal{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.reviews__profession{
+    margin-left: 20px;
+}
+
+.reviews__name{
+    color: #232323;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.reviews__skill{
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}

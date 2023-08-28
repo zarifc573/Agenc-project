@@ -1,0 +1,11 @@
+:root{
+    --primary-color: #6A4DF4;
+    --primary-color-nav: #6A4DF4;
+    --secondary-color: #151515;
+    --tertiary-color: #737373;
+    --quaternary-color: #7B7B7B;
+    --font-family: 'Inter', sans-serif;
+    --section-gap: 150px 0;
+    --button-hover: #42309b;
+}
+

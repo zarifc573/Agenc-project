@@ -1,0 +1,259 @@
+
+
+.banner{
+    background: url(../images/agenc-Banner\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 315px 0 176px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    z-index: -1;
+}
+
+
+
+
+
+
+.banner__mainHeading{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 950px;
+}
+
+
+.banner__importance{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 26px;
+    width: 621px;
+    margin: 50px auto 0;
+}
+
+.banner__btn{
+    padding: 15px 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    background: var( --primary-color);
+    border-radius: 10px;
+    border: 0px solid var(--primary-color);
+    margin-top: 40px;
+    transition: all linear 0.3s;
+}
+
+.banner__btn:hover{
+    background: var(--button-hover);
+}
+
+
+
+
+.banner__slider{
+    display: flex;
+    justify-content: center;
+       position: absolute;
+    top: 820px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+.banner__dot{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #4756DF;
+    margin-left: 2px;
+    position: relative;
+    
+    
+}
+
+.banner__dot:nth-child(3){
+    background: #fff;
+}
+
+
+.banner__dotActive{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #4756DF;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    
+
+}
+
+
+
+
+
+
+
+.banner__dot::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease-in 0.2s;
+}
+
+.banner__dot::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #4756DF;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all ease-in 0.2s;
+}
+
+.banner__dot:hover::after{
+    opacity: 1;
+    background: #4756DF;
+    cursor: pointer;
+}
+
+.banner__dot:hover::before{
+    opacity: 1;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slider */
+
+
+
+
+/* .carousel-indicators [data-bs-target] {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #4756df;
+    background-clip: padding-box;
+    border: 0;
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.carousel-indicators [data-bs-target]::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    
+}
+
+.carousel-indicators [data-bs-target]:hover::before{
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target]:hover::after{
+    opacity: 1;
+}
+
+
+.carousel-indicators [data-bs-target]::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #4756df;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+}
+
+
+
+.carousel-indicators [data-bs-target]:hover{
+    background: #222;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+ */
+
+
+
+
+

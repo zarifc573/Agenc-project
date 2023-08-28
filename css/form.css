@@ -1,0 +1,132 @@
+
+
+.form{
+    background: #F3F3F3;
+    padding: var(--section-gap);
+}
+
+
+.form__leftside{
+    margin-top: 176px;
+}
+
+
+.form__heading{
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    width: 470px;
+}
+
+.form__passage1{
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 514px;
+    margin-top: 20px;
+}
+
+
+.form__passage2{
+    color: var(--tertiary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 526px;
+    margin-top: 10px;
+}
+
+
+
+.form__rightside{
+    border-radius: 20px;
+    background: #FFF;
+    padding: 61px 43px;
+}
+
+
+.form__quote{
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.form__information{
+    margin-top: 30px;
+}
+
+
+.form__list{
+    text-align: start;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;    
+    line-height: 26px;
+    }
+
+.form__input{
+   width: 100%;
+   border: 1px solid #E8E8E8;
+   outline: none;
+   padding: 19px 0;
+   margin-top: 10px;
+}
+
+.form__input::placeholder{
+    color: #D0D0D0;
+}
+
+
+.form__input:placeholder-shown{
+    color: rgb(90, 90, 90);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 23px;
+    border-radius: 10px;
+}
+
+
+.form__button{
+    margin-top: 30px;
+}
+
+
+
+.form__btn{
+    padding: 19px 0;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    border: 0px solid var(--primary-color);
+    transition: all linear 0.3s;
+}
+
+
+.form__btn:hover{
+background: var(--button-hover);
+}
+
+
+
+
+
+
+
+

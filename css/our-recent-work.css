@@ -1,0 +1,82 @@
+
+
+
+
+.recentWork{
+    background: #F3F3F3;
+    padding: 150px 0 105px;
+}
+
+
+.recentWork__heading{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recentWork__passage{
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+.recentWork__managementApp{
+   
+    padding-bottom: 30px;
+    background: #fff;
+    border-radius: 20px;
+  
+    
+}
+
+
+
+
+.recentWork__image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.recentWork__task{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.recentWork__taskPassage{
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 340px;
+    margin: 10px auto 0px;
+}
+
+.recentWork__customize{
+    padding-top: 24px;
+}
+.recentWork__bottomPart{
+    padding-top: 80px;
+}
